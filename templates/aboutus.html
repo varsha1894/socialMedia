@@ -1,0 +1,85 @@
+<!-- preloader section -->
+<!-- navigation section -->
+{% include 'navbar.html' %}
+<!-- about section -->
+{% load static %}
+<section id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 text-center">
+				<div class="section-title">
+					<h1 class="heading bold">ABOUT US</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<img src="{% static 'images/about-img.jpg' %}" class="img-responsive" alt="about img">
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="active"><a href="#INTRODUCTION" aria-controls="INTRODUCTION" role="tab" data-toggle="tab">INTRODUCTION</a></li>
+					<li><a href="#EXPLORING" aria-controls="EXPLORING" role="tab" data-toggle="tab">EXPLORING</a></li>
+					<li><a href="#REFINNING" aria-controls="REFINNING" role="tab" data-toggle="tab">REFINNING</a></li>
+                    <li><a href="#IMPLEMENTING" aria-controls="IMPLEMENTING" role="tab" data-toggle="tab">IMPLEMENTING</a></li>
+				</ul>
+				<!-- tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="INTRODUCTION">
+						<p>WE "ADMISSION HUB" provide information regarding admission in courses of your choice for graduation and postgraduation under the one roof.</p>
+                        <p>You don't look to here and there gather lots of losts of information which may confuse you. </p><p>We provide following three process to make it easy for you:-</p>
+                        <ol value="1">
+                        <li><a href="#EXPLORING" aria-controls="EXPLORING" role="tab" data-toggle="tab">EXPLORING</a></li>
+                        <li><a href="#REFINNING" aria-controls="REFINNING" role="tab" data-toggle="tab">REFINNING</a></li>
+                        <li><a href="#IMPLEMENTING" aria-controls="IMPLEMENTING" role="tab" data-toggle="tab">IMPLEMENTING</a></li>
+                        
+                        </ol>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="EXPLORING">
+						<p>We provide all the relevant information about universities and entrance exams they hold. You will get courses they provide, eligibilty criteria, deadlines for applying, location of that university using google maps, deadlines for applying and people reviews(these reviews are gathered from facebook, twitter and othersso that we  can able to know best of it.</p>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="REFINNING">
+						<p>From these information, you can select the courses of your choices and we will send you latest alerst regarding the same, to make it more flexible for you.</p>
+					</div>
+                    <div role="tabpanel" class="tab-pane" id="IMPLEMENTING">
+						<p>Getting the best results out of these, you can take admission in your DREAM UNIVERSITY.</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- footer section -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<p>HIT US !</p>
+				<hr>
+				<ul class="social-icon">
+					<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
+					<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
+					<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
+					<li><a href="#" class="fa fa-behance wow fadeIn" data-wow-delay="0.9s"></a></li>
+					<li><a href="#" class="fa fa-tumblr wow fadeIn" data-wow-delay="0.9s"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+{% load static %}
+<script src="{% static 'js/jquery.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/smoothscroll.js' %}"></script>
+<script src="{% static 'js/isotope.js' %}"></script>
+<script src="{% static 'js/imagesloaded.min.js' %}"></script>
+<script src="{% static 'js/nivo-lightbox.min.js' %}"></script>
+<script src="{% static 'js/jquery.backstretch.min.js' %}"></script>
+<script src="{% static 'js/wow.min.js' %}"></script>
+<script src="{% static 'js/custom.js' %}"></script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: django-highcharts
+Version: 0.0.1
+Summary: Django Highcharts helpers
+Home-page: https://github.com/novapost/django-highcharts
+Author: Bruno Bord
+Author-email: bruno.bord@novapost.fr
+License: BSD Licence
+Description: #################
+        Django Highcharts
+        #################
+        
+        Generate charts in you Django application using Highcharts helpers.
+        
+        This library is mostly based on `django-chartjs <https://github.com/novapost/django-chartjs/>`_,
+        by Rémy Hubscher.
+        
+        Please don't try to use it yet, it's really not ready.
+        
+        * `Documentation is on RTFD <http://django-highcharts.readthedocs.org/en/latest/>`_
+        * `Source code is on Github <https://github.com/novapost/django-highcharts>`_
+        
+Keywords: d,j,a,n,g,o, ,c,h,a,r,t, ,h,i,g,h,c,h,a,r,t,s, ,a,j,a,x, ,c,l,a,s,s, ,b,a,s,e,d, ,v,i,e,w,s
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
